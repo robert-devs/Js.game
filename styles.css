@@ -1,0 +1,130 @@
+.container-1 {
+    border: 2px solid black;
+    margin: 0 auto;
+    width: 75%;
+    text-align: center;
+
+
+}
+
+
+.flex-box-container-1{
+    border: 1px solid black;
+    display: flex;
+    padding:10px ;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    
+}
+
+.flex-box-container-1 div{
+    padding: 20px;
+    display: flex;
+    border: 1px solid black;
+    align-items: center;
+}
+.conatainer-2{
+    border: 1px solid black;
+    width: 75%;
+    margin: 0 auto;
+    text-align: center;
+
+}
+.flex-box-2{
+    display: flex;
+    border: 1px solid blue;
+    flex-wrap: wrap;
+    /* padding: 20px; */
+    justify-content: space-around;
+}
+.flex-box-2 img{
+    border: 1px solid green;
+    justify-content: space-around;
+    margin: 10px;
+    /* padding: 10px; */
+    height: 200px;
+    box-shadow: 0px 10px 50px rgb(0,0,0.7);
+}
+.container-3{
+    border: 2px solid black;
+    margin: 0 auto;
+    width: 75%;
+    text-align: center;
+
+
+}
+.flex-box-rps {
+    border: 1px solid black;
+    display: flex;
+    padding:10px ;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    
+}
+.flex-box-rps img:hover{
+    box-shadow: 0px 10px 50px rgb(4, 41, 247);
+
+}
+.container-4  {
+    border: 2px solid black;
+    margin: 0 auto;
+    width: 75%;
+    text-align: center;
+
+    
+}
+.flex-box-pick-color{
+    border: 1px solid black;
+    display: flex;
+    padding:10px ;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+.flex-box-pick-color button:hover{
+    box-shadow: 0px 10px 50px rgb(4, 41, 247);
+}
+.container-5{
+    border: 2px solid black;
+    margin: 0 auto;
+    width: 75%;
+    text-align: center;
+}
+.flex-blackjack-row-1, .flex-blackjack-row-2,.flex-blackjack-row-3{
+    border: 1px solid black;
+    display: flex;
+    padding:10px ;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+.flex-blackjack-row-1,.flex-blackjack-row-2{
+    background-image:url(images/istockphoto-.jpg) ;
+    color:white;
+   
+}
+.flex-blackjack-row-1 div{
+    border: 1px solid black;
+    flex: 1;
+    padding: 10px;
+    height: 350px;
+    text-align: center;
+
+}
+.flex-blackjack-row-2 div{
+    padding: 1px;
+}
+table,th,td{
+    border: 1px solid black;
+    padding: 10px;
+}
+
+
+
+.flex-blackjack-row-1 img{
+    width: 25%;
+    padding: 0;
+}
+.flex-blackjack-row-2 button   {
+    border: 1px solid black;
+}
